@@ -1,1 +1,120 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap");
+/* mobile */
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto Mono', arial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-container {
+  background: #ffffff;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-container a {
+  color: #48484a;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul a {
+  padding: 1em 0em 1em 2em;
+}
+
+.social-header {
+  display: none;
+}
+
+.hero {
+  background: #ffffff;
+  margin-top: 100px;
+}
+
+.hero .hero-text {
+  color: #48484a;
+  text-align: left;
+  padding: 2em;
+  display: block;
+  vertical-align: top;
+}
+
+.hero img {
+  width: 200px;
+  float: right;
+  padding: 2em;
+}
+
+section {
+  margin-top: -6px;
+  padding: 4em 2em;
+  text-align: center;
+}
+
+.projects {
+  background: #48484a;
+  color: #ffffff;
+}
+
+.skills {
+  background: #48484a;
+  color: #ffffff;
+}
+
+/* wider browsers */
+@media only screen and (min-width: 800px) {
+  .hero img {
+    width: 250px;
+  }
+}
+
+/* even widerer browsers */
+@media only screen and (min-width: 1050px) {
+  .hero img {
+    width: 300px;
+  }
+}
+
+/* even more widerer browsers */
+@media only screen and (min-width: 1600px) {
+  .hero img {
+    width: 350px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

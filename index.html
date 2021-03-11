@@ -1,1 +1,87 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="nav-container">
+        <header>
+            <a href="index.html" class="logo">David McNamara</a>
+            <nav>
+                <ul>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="social-header">
+            <ul>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="false"></i></a></li>
+                <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>    
+    </div>
+    <div class="hero">
+        <img src="images/headshot.png">
+        <div class="hero-text">
+            <h1>Hi, I'm David!</h1>
+            <p>I am an M.S. Urban Planning Student at Columbia University 
+                interested in the intersection of urban design, urban policy 
+                and environmental justice</p>
+            
+        </div>
+    </div>
+    <div class="background-image">
+        <img src="images/cole_valley_grey.png">
+    </div>
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="projects-containter">
+            <div class="projects-container one">
+                <a href="#" class="title">Food Insecurity in NYC</a>
+            </div>
+            <div class="projects-container two">
+                <a href="#" class="title">Food Insecurity in NYC</a>
+            </div>
+        </div>
+        <img class="right transition2" src="images/...">
+    </section>
+    <section class="resume">
+        <div class="resume-container">
+            <h2>Resume</h2>
+            <div id="adobe-dc-view" style="width: 800px;"></div>
+            <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+            <script type="text/javascript">
+                document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+                    var adobeDCView = new AdobeDC.View({clientId: "63df893da0894b78881bdcf43b4c5311", divId: "adobe-dc-view"});
+                    adobeDCView.previewFile({
+                        content:{promise: "https://drive.google.com/file/d/1DNxeGoEKz44ePFw9hFXtvJBNJ2VMGML2/view?usp=sharing"},
+                        metaData:{fileName: "David McNamara CV"}
+                    }, {embedMode: "IN_LINE"});
+                });
+</script>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="skills-container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Adobe Illustrator</li>
+                <li>Adobe InDesign</li>
+                <li>Adobe Photoshop</li>
+                <li>HTML/CSS/Javascript</li>
+                <li>R</li>
+                <li>Python</li>
+                <li>GIS</li>
+                <li>Sketchup</li>
+                <li>Office Suite</li>
+            </ul>
+        </div>
+    </section>
+    
+</body>

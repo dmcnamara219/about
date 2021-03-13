@@ -60,7 +60,7 @@
                 document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
                     var adobeDCView = new AdobeDC.View({clientId: "63df893da0894b78881bdcf43b4c5311", divId: "adobe-dc-view"});
                     adobeDCView.previewFile({
-                        content:{promise: "files/David McNamara - CV.pdf"},
+                        content:{location: {url: "./path/to/David McNamara - CV.pdf"}},
                         metaData:{fileName: "David McNamara CV"}
                     }, {embedMode: "IN_LINE"});
                 });
